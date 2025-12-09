@@ -1,3 +1,6 @@
+//Dylan Hamilton
+//12-4-25
+
 public class GameManager {
 
     private MoveList moves;

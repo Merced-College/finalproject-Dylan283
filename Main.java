@@ -3,7 +3,18 @@
 
 public class Main {
     public static void main(String[] args) {
-        GameManager gm = new GameManager();
-        gm.start();
+
+        Player p = new Player("Dylan");
+
+        p.getInventory().addItem("Sword");
+        p.getInventory().addItem("Sword");
+        p.getInventory().addItem("Shield");
+
+        p.getInventory().showInventory();
+
+        p.getInventory().removeItem("Sword");
+
+        p.getInventory().showInventory();
     }
 }
+
